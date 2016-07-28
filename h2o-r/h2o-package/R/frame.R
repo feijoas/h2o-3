@@ -2310,7 +2310,7 @@ as.logical.H2OFrame <- function(x, ...) as.vector.H2OFrame(x, "logical")
 #'
 #' Convert a column into a factor column.
 #' @param x a column from an H2OFrame data set.
-#' @seealso \code{\link{is.factor}}.
+#' @seealso \code{\link{as.factor}}.
 #' @examples
 #' \donttest{
 #' h2o.init()
